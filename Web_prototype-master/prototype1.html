@@ -2,12 +2,25 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>prototype1</title>
+	<title>prottype</title>
 	<link rel="stylesheet" href="css/prototype1.css">
 </head>
 <body>
 	<div class="wrap">
+		
+
 		<div class="header">
+			<div class="functionbar">
+							
+				<ul class="selections">
+					<li><a href="#">登入/註冊</a></li>
+					<li><a href="#">通知</a></li>
+					<li><a href="#">會員中心</a></li>
+					<li><a href="#">查詢訂單</a></li>
+					<li><a href="#">購物車</a></li>
+				</ul>
+
+			</div>
 			<div class="logo">
 				<img id="logo" src="img/slogo.jpg" alt="">
 			</div>
@@ -16,43 +29,60 @@
 			</div> 
 			<div class="catebar">
 				<form>
-					<select name="op1" value="品牌">
-					　<option value="Taipei">1</option>
-					　<option value="Taoyuan">2</option>
-					　<option value="Hsinchu">3</option>
-					　<option value="Miaoli">3</option>
+					<select name="op1">
+					　<option value="price">價格</option>
+					　<option value="p1">1000元內</option>
+					　<option value="p2">1001~3000元</option>
+					　<option value="p3">3001元以上</option>
 					</select>
 				</form>
 
 				<form>
-					<select name="op2" value="品牌">
-					　<option value="Taipei">1</option>
-					　<option value="Taoyuan">2</option>
-					　<option value="Hsinchu">3</option>
-					　<option value="Miaoli">3</option>
+					<select name="op2">
+					　<option value="brand">品牌</option>
+					　<option value="b1">Nike</option>
+					　<option value="b2">Adidas</option>
+					　<option value="b3">UA</option>
 					</select>
 				</form>
 
 				<form>
-					<select name="op3" value="品牌">
-					　<option value="Taipei">1</option>
-					　<option value="Taoyuan">2</option>
-					　<option value="Hsinchu">3</option>
-					　<option value="Miaoli">3</option>
+					<select name="op3">
+					　<option value="Type">種類</option>
+					　<option value="T1">慢跑鞋</option>
+					　<option value="T2">籃球鞋</option>
+					　<option value="T3">訓練鞋</option>
 					</select>
 				</form>
 
 				<input type="text" class="input" placeholder="搜尋">
+				<input type="submit" class="submit"value="搜尋">
 			</div>
 		</div>
 
 
 		<div class="content">
 			<div class="side">
-				<div class="member">會員專區</div>
-				<div class="moneyrate">今日匯率</div>
-				<div class="trans">運費計算</div>
-				<div class="fbclub">FB粉絲團</div>
+				
+				<div class="moneyrate">
+					<h5>今日匯率</h5>					
+					<p>1:32</p>
+				</div>
+				<div class="trans">
+					<h5>運費計算</h5>					
+					<p>台灣本島60元</p>
+					<p>離島100元</p>
+
+				</div>
+				<div class="fbclub">
+					<h5>fb粉絲團</h5>					
+					<p>請搜尋<br>"全台最大代購"<br>
+						粉絲團隨時提供最新，最優惠的消息，按讚加關注，互粉互讚
+
+					</p>
+					
+
+				</div>
 			</div>
 			<div class="main">
 				<h2>排行榜</h2>
@@ -138,7 +168,7 @@
 				</div>
 
 				<div class="brands">
-					<div><a class="brandlist" href="prototype3.html">Nike</a></div>
+					<div><a class="brandlist" href="#">Nike</a></div>
 					<div><a class="brandlist" href="#">NB</a></div>
 					<div><a class="brandlist" href="#">Pony</a></div>
 					<div><a class="brandlist" href="#">Adidas</a></div>
@@ -154,10 +184,13 @@
 
 		</div>
 		<div class="footer">
-			<a href="#">聯絡我們</a>
+			<a href="#" >聯絡我們</a>
 			<a href="#">活動專區</a>
 			<a href="#">新手上路</a>
 		</div>
+
+
+
 	</div>
 	
 </body>
