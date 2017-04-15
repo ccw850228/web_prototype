@@ -42,6 +42,9 @@ table {
 	border-spacing: 0;
 }
 
+body{
+	background: #fff;
+}
 
 .wrap{
 	width: 1000px;
@@ -50,16 +53,18 @@ table {
 
 }
 .header{
+	color:#C9D4DC;
 	height: 150px;
 	float:center; 
+	background: #678598;
 	}
+
 .functionbar{
-	float: center;
-	width: 980px;
+	width: 1000px;
 	position: fixed;
 	top:0px;
-	left: 190px;	
-	background: #DDDDDD;
+	left: auto;	
+	background: #CFD0E1;
 
 }
 
@@ -75,18 +80,19 @@ table {
 
 .selections li a{
 	display: block;
-	color:black;
+	color:#50538A;
 	padding:  5px;
 	padding-left: 13px; 
 	padding-right: 13px;
 	text-decoration: none;
 }
 .selections li a:hover{
-	background: 	#888888;
+	background: 	#50538A;
+	color:#CFD0E1;
 }
 
 .logo{
-	margin: 20px;
+	margin-top: 30px;
 }
 
 #logo{
@@ -124,7 +130,7 @@ select{
 
 .input{
 	width: 130px;
-	height: 30px;
+	height: 25px;
 	float: left;
 	margin:0px 0px 0px 10px; 	
 
@@ -135,6 +141,11 @@ select{
 }
 .submit{
 	height: 30px;
+}
+
+.content{
+	height: 1000px;
+	margin-bottom:30px;
 }
 
 .side{
@@ -163,7 +174,7 @@ select{
 	
 }
 .member, .moneyrate, .trans, .fbclub{
-	margin-bottom: 10px;
+	margin-bottom: 10px;	
 
 }
 .goods1, .goods2 ,.goods3{
@@ -187,6 +198,7 @@ select{
 	padding: 10px;
 	float: left;
 	padding-bottom: 5px;
+	color:#468A69;
 
 }
 .eng{
@@ -204,9 +216,14 @@ select{
 	float: left;
 	padding-top: 20px;
 	margin-left: 30px;
-	
 	padding-left: 20px;
 }
+
+.compare li{
+	margin-bottom: 10px;
+	color:#678598;
+}
+
 #top{
 	float: left;
 	height: 32px;
@@ -214,7 +231,10 @@ select{
 }
 
 h2{
-	font-size: 25px;
+	text-align: center;
+	font-size: 32px;
+	font-style: bold;
+	color: #28704D;
 	margin-bottom: 20px;
 }
 
@@ -227,7 +247,13 @@ h2{
 .goods_pic{
 	float: left;
 	width: 150px;
+	margin-top:20px;
 }
+
+.goods_pic span{
+	color:#678598;
+}
+
 .star, .estar{
 	margin-right: 5px;
 	float: left;
@@ -240,46 +266,63 @@ h2{
 }
 
 .brandlist{ 
-	color: #000;
+	color: 284E67;
 	text-decoration: none;
 	display: block;
 	height: 20px;
 	width: 140px;
 	border-width: 3px;
 	border-style:solid ;
-	border-color: orange;
+	border-color: #C9D4DC;
 	margin: 15px;
 	text-align: center;
 	padding: 10px;
-	color: orange;
+	color: #678598;
 	float: left;
 
 }
 
 .brandlist:hover{
-	background: orange;
-	color: #fff;
+	background: #284E67;
+	color: #C9D4DC;
 
 }
 .footer{
+	height: 30px;
 	clear:both;
-	padding: 50px;
-	
-	text-align: center;
+	padding: 10px;
+	border-top: 1px solid #468A69;
+	border-bottom: 1px solid #468A69;
+	background: #CCE2D7;
+	margin-bottom: 10px;
 }
-footer a{
+
+.footer a{
 	text-decoration: none;
 	font-size: 20px;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 200px;
+	float: left;
+	display: block;
+	color:#468A69;
+	padding: 5px;
 }
-h5{
-	margin-left: 25px;
-	width: 180px;
-	border-bottom: 1px solid black;
-	padding: 10px;
 
+.footer a:hover{
+	background: #44687F;
+	color:#95AAB8;
 }
+
+h5{
+	text-align: center;
+	width: 228px;
+	background: #CCE2D7;
+	padding: 10px;
+}
+
+.trans p{
+	color:#44687F;
+}
+
 div div div p{
 	display: block;
 	margin-left: 25px;
