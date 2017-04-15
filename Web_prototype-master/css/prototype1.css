@@ -75,7 +75,17 @@ body{
 
 .selections li {
 	float: right;
+
 		
+}
+
+.selections li span{
+	display: block;
+	color:#50538A;
+	padding:  5px;
+	padding-left: 13px; 
+	padding-right: 13px;
+	text-decoration: none;
 }
 
 .selections li a{
