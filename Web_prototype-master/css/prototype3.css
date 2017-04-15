@@ -48,13 +48,47 @@ table {
 	font-family:"Microsoft JhengHei";
 
 }
-
 .header{
+	color:#C9D4DC;
 	height: 150px;
+	float:center; 
+	background: #678598;
+	}
+
+.functionbar{
+	width: 1000px;
+	position: fixed;
+	top:0px;
+	left: auto;	
+	background: #CFD0E1;
+
+}
+
+.selections{
+	
+	margin: 0 ;
+}
+
+.selections li {
+	float: right;
+		
+}
+
+.selections li a{
+	display: block;
+	color:#50538A;
+	padding:  5px;
+	padding-left: 13px; 
+	padding-right: 13px;
+	text-decoration: none;
+}
+.selections li a:hover{
+	background: 	#50538A;
+	color:#CFD0E1;
 }
 
 .logo{
-	margin: 20px;
+	margin-top: 30px;
 }
 
 #logo{
@@ -62,7 +96,6 @@ table {
 	height: 150px;
 	float: left;
 }
-
 .title{
 	width: 700px;
 	float: left;
@@ -77,8 +110,8 @@ table {
 	
 	margin-left: 30px;
 	text-align: center;
-}
 
+}
 h1{
 	text-align: center;
 	font-size: 30px;
@@ -86,26 +119,36 @@ h1{
 }
 select{
 	width: 130px;
-	height: 40px;
-	float: left;
-	margin:0px 20px 0px 10px; 	
-}
-.input{
-	width: 160px;
 	height: 30px;
 	float: left;
 	margin:0px 20px 0px 10px; 	
+}
+
+.input{
+	width: 130px;
+	height: 25px;
+	float: left;
+	margin:0px 0px 0px 10px; 	
 
 	border: 1px solid;
 	border-color: #BEBEBE;
-	padding: 5px;
+	
 	color: #BEBEBE;
+}
+.submit{
+	height: 30px;
+	
 }
 
 .searchresult{
 	margin-top: 20px;
-	font-size:24px;
+	font-size:30px;
+	font-style: bold;
+	color:#678598;
+}
 
+.searchresult span{
+		color:#284E67;
 }
 
 .item{
@@ -115,13 +158,13 @@ select{
 }
 
 .itemtop{
-	height: 300px;
+	height: 299px;
 	width: 960px;
 	border-bottom: 1px solid #AAAAAA;
 }
 
 .itemmid{
-	height: 300px;
+	height: 299px;
 	width: 960px;
 	border-bottom: 1px solid #AAAAAA;
 }
@@ -137,6 +180,9 @@ select{
 	padding:30px;
 }
 
+.pic{
+	width:240px; 
+}
 .star{
 	margin-top: 20px;
 	padding-left:5px;
@@ -149,29 +195,40 @@ select{
 .itemdes{
 	float:left;
 	width: 450px;
+	padding-bottom: 30px;
 }
 
 .itemdes a{
 	text-decoration: none;
-	color:black;
 	display: block;
 	padding: 30px;
 }
-
-.itemdes a:hover{
-	color:red;
+.compare{
+	float:left;
+	width: 200px;
+	margin-top: 20px;
+	color:#678598;
 }
 
 .itemdes h2{
 	font-size: 20px;
 	font-style: bold;
+	color:#468A69;
 }
 
-.compare{
-	float:left;
-	width: 200px;
-	margin-top: 20px;
+.itemdes span{
+	color:#468A69;
 }
+
+.itemdes a:hover{
+	color:#C9D4DC;
+}
+
+.itemdes:hover{
+	background:#C9D4DC;
+}
+
+
 
 .otherprice{
 	margin-top: 20px;
@@ -181,12 +238,14 @@ select{
 .price{
 	margin-top: 40px;
 	font-size: 28px;
+	color:#678598;
 }
 .price span{
 	color: red;
 }
 
 .page{
+	clear:both;
 	width: 960px;
 	height: 50px;
 	padding-left: 400px;
