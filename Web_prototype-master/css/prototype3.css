@@ -255,15 +255,24 @@ select{
 
 .page{
 	clear:both;
-	width: 960px;
 	height: 50px;
-	padding-left: 400px;
+	width: 935px;
+	margin: 0 auto;
 }
 
 
 .page a{
 	float:left;
-	padding-right: 2px;
+	margin-right: 5px;
+	text-decoration: none;
+	color: black;
+	padding:3px 5px 3px 5px;
+	border: 1px solid #678598;
+}
+
+.page a:hover{
+	background:#44687F;
+	color:white;
 }
 
 .footer{
