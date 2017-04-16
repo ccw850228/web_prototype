@@ -2,12 +2,30 @@
 <html>
 <head>
 	<title>商品細項</title>
-	<link rel="stylesheet" href="css/page2.css">
+	 <link rel="stylesheet" href="css/page2.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+
+
 </head>
 <body>
 	<div class="wrap">
+
 		<div class="header">
+			<div class="functionbar">
+							
+				<ul class="selections">
+					
+					<li><a href="#">購物車(5)</a></li>
+					<li><a href="#">查詢訂單</a></li>
+					<li><a href="#">會員中心</a></li>
+					
+					<li><a href="#">通知(3)</a></li>
+					<li><a href="#">登出</a></li>
+					<li><span>高大蘇志燮，你好</span></li>
+				</ul>
+
+			</div>
 			<div class="logo">
 				<img id="logo" src="img/slogo.jpg" alt="">
 			</div>
@@ -16,36 +34,40 @@
 			</div> 
 			<div class="catebar">
 				<form>
-					<select name="op1" value="品牌">
-					　<option value="Taipei">1</option>
-					　<option value="Taoyuan">2</option>
-					　<option value="Hsinchu">3</option>
-					　<option value="Miaoli">3</option>
+					<select name="op1">
+					　<option value="price">價格</option>
+					　<option value="p1">1000元內</option>
+					　<option value="p2">1001~3000元</option>
+					　<option value="p3">3001元以上</option>
 					</select>
 				</form>
 
 				<form>
-					<select name="op2" value="品牌">
-					　<option value="Taipei">1</option>
-					　<option value="Taoyuan">2</option>
-					　<option value="Hsinchu">3</option>
-					　<option value="Miaoli">3</option>
+					<select name="op2">
+					　<option value="brand">品牌</option>
+					　<option value="b1">Nike</option>
+					　<option value="b2">Adidas</option>
+					　<option value="b3">UA</option>
 					</select>
 				</form>
 
 				<form>
-					<select name="op3" value="品牌">
-					　<option value="Taipei">1</option>
-					　<option value="Taoyuan">2</option>
-					　<option value="Hsinchu">3</option>
-					　<option value="Miaoli">3</option>
+					<select name="op3">
+					　<option value="Type">種類</option>
+					　<option value="T1">慢跑鞋</option>
+					　<option value="T2">籃球鞋</option>
+					　<option value="T3">訓練鞋</option>
 					</select>
 				</form>
 
 				<input type="text" class="input" placeholder="搜尋">
+				<input type="submit" class="submit"value="搜尋">
 			</div>
 		</div>
-		<div class="content1">
+
+
+
+	<div class="content1">
 			<!--<div class="back">
 				<a href="#"><img src="img/left.png" alt=""></a><br/>
 				<p><a href>其他 NIKE 商品</a></p>
@@ -65,14 +87,16 @@
 						<img src="img/star.png" alt="">
 						(10)
 					<ul>
-						<li>大童尺碼</li>
-						<li>舒適穿著</li>
-						<li>重新配色</li>
+						<li><h6>商品顏色:</h6>
+						<span class="red"></span>
+						<span class="green"></span>
+						<span class="blue"></span></li>
+						
 					</ul>
 					<div class="tag">
-						<span><a href="#">running</a></span>
-						<span><a href="#">basketball</a></span>
-						<span><a href="#">training</a></span>
+						<span><a href="#"> #running</a></span>
+						<span><a href="#"> #basketball</a></span>
+						<span><a href="#"> #training</a></span>
 					</div>
 
 					<div class="buy">
@@ -86,6 +110,8 @@
 				</div>
 				
 			</div>
+
+
 			<div class="item_img">
 				<img src="img/item_img.jpg" alt="">
 			</div>
@@ -94,11 +120,108 @@
 				<img src="img/a2.jpg" alt="">
 				<img src="img/a3.jpg" alt="">
 			</div>
+
+
+
+
+		
+	</div>
+
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">商品資訊</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">問與答(50)</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">評論(40)</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3></h3>
+  <p>簡潔的線條與流暢的設計，絕佳舒適感和耐磨性契合各種運動或日常穿著的需求。
+	</p>
+
+<p>
+NIKE ROSHERUN 運動鞋融入全掌PHYLON中底，輕質減震效果有效保護雙腳，SOLARSOFT鞋墊提升合腳度和支撐力，令你的腳步移動更舒適、自然。
+</p>
+<p>網眼材質，提供出色透氣度</p>
+
+<p>全掌PHYLON中底，輕質減震</p>
+
+<p>SOLARSOFT鞋墊，締造頂級舒適感</p>
+
+<p>華夫格外底紋路，提升抓地力  </p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3></h3>
+  <div class="askans">
+  	<p>發問人:hahaha33</p>
+  	<div class="Qs">
+  		<p>Q:請問...沒事</p>
+  		<p id="anstime">時間:2017/2/2 6:26</p>
+  	</div>
+  	<div class="As">
+		<p>A:...</p>  	
+		<p id="anstime">時間:2017/2/2 6:29</p>	
+  	</div>
+  </div> 
+
+    <div class="askans">
+  	<p>發問人:hahaha33</p>
+  	<div class="Qs">
+  		<p>Q:請問...沒事</p>
+  		<p id="anstime">時間:2017/2/2 6:26</p>
+  	</div>
+  	<div class="As">
+		<p>A:...</p>  	
+		<p id="anstime">時間:2017/2/2 6:29</p>	
+  	</div>
+  </div> 
+
+    <div class="askans">
+  	<p>發問人:hahaha33</p>
+  	<div class="Qs">
+  		<p>Q:請問...沒事</p>
+  		<p id="anstime">時間:2017/2/2 6:26</p>
+  	</div>
+  	<div class="As">
+		<p>A:...</p>  	
+		<p id="anstime">時間:2017/2/2 6:29</p>	
+  	</div>
+  </div> 
+
+
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3></h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+
+
+	
+		
+	<div class="content2">
+		<div class="title">
+			<p>What's Trending</p>
 		</div>
-		<div class="content2">
-			<div class="title">
-				<p>What's Trending</p>
-			</div>
 			<div class="block1">
 				<div class="block_item">	
 					<div class="block_item_img">
@@ -130,8 +253,42 @@
 						<img src="img/star.png" alt="">
 						<img src="img/star.png" alt="">
 					</span>
+
+					<span>wei86&nbsp:穿了考試都考100分
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+					</span>
+
+					<span>wei877&nbsp:好穿
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+					</span>
+
+					<span>wei8577&nbsp:只考98 
+						<img src="img/emptystar.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+					</span>
+
+					<span>wei8542&nbsp:好穿呢
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+					</span>
 				</div>
 			</div>
+			
+
 			<div class="block2">
 				<div class="block_item">
 					<div class="block_item_img">
@@ -162,14 +319,73 @@
 						<img src="img/star.png" alt="">
 						<img src="img/star.png" alt="">
 					</span>
+					<span>david8225&nbsp:super
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+					</span>
+					<span>david3185&nbsp:goodjob
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+					</span>
+					<span>david1825&nbsp:棒棒
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+					</span>
+					<span>david82225&nbsp:用過都說讚
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+						<img src="img/star.png" alt="">
+					</span>
 			</div>
+		</div>
+	</div>
+
+		<div class="page">
+			<div class="pagecon">
+					<ul>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">6</a></li>
+						<li><a href="#">7</a></li>
+						<li><a href="#">8</a></li>
+						<li><a href="#">9</a></li>
+						<li><a href="#">></a></li>
+					</ul>
+
 				</div>
-			
 			</div>
-		</div>
+		
+
 		<div class="footer">
-			<p>@2017  硝子後援會  ,All Rights Reserved.</p>
+			<div class="link">
+				<a href="#">關於我們</a>
+				<a href="#">聯絡我們</a>
+				<a href="#">新手上路</a>
+				<a href="#">活動專區</a>
+				<a href="#">常見問題</a>
+			</div>
+			<div class="mark">
+				<p>@2017  bybuyshoes  ,All Rights Reserved.</p>
+			</div>
+
 		</div>
+
+		
+
 	</div>
 </body>
 </html>
